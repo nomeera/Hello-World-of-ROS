@@ -1,10 +1,4 @@
-Task 1/counter_ws/build/
-Task 1/counter_ws/devel/
-Task 1/counter_ws/src/
-Task 1/counter_ws/.vscode/
-Task 1/counter_ws/.catkin_workspace
-Task 1/string_ws/build/
-Task 1/string_ws/devel/
-Task 1/string_ws/src/
-Task 1/string_ws/.vscode/
-Task 1/string_ws/.catkin_workspace
+Task 1/task1_ws/build/
+Task 1/task1_ws/devel/
+Task 1/task1_ws/.vscode/
+Task 1/task1_ws/.catkin_workspace

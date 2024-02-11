@@ -5,7 +5,7 @@ from std_msgs.msg import Int32
 
 def talker():
     
-    rospy.init_node("Talker", anonymous=True)  # create talker node
+    rospy.init_node("talker", anonymous=True)  # create talker node
     pub = rospy.Publisher("count_topic", Int32, queue_size=10) # create pub object that publish Int32 via /count_topic with queue size = 1
     rate = rospy.Rate(1) # create a rate object that determine the rate frequency
 
