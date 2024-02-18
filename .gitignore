@@ -1,4 +1,5 @@
-Task 1/task1_ws/build/
-Task 1/task1_ws/devel/
-Task 1/task1_ws/.vscode/
-Task 1/task1_ws/.catkin_workspace
+.gitignore
+Task-1/task1_ws/build/
+Task-1/task1_ws/devel/
+Task-1/task1_ws/.vscode/
+Task-1/task1_ws/.catkin_workspace
