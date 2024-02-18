@@ -8,7 +8,7 @@ def listener():
     # create sub node
     rospy.init_node("listener", anonymous= True)
     # subscribe /count_topic
-    rospy.Subscriber("count_topic", Int32, callback)
+    rospy.Subscriber("count_topic", Int32, callback, queue_size= 1)
     rospy.spin()  # process incoming messages until the node is shutdown
 
 
