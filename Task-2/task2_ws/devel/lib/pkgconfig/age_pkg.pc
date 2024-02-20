@@ -1,8 +1,0 @@
-prefix=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-2/task2_ws/devel
-
-Name: age_pkg
-Description: Description of age_pkg
-Version: 0.0.0
-Cflags: -I/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-2/task2_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs message_runtime
