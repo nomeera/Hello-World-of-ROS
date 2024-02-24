@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(turtle)
+project(turtle_pkg)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -105,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES turtle
+#  LIBRARIES turtle_pkg
 #  CATKIN_DEPENDS geometry_msgs roscpp rospy turtlesim
 #  DEPENDS system_lib
 )
@@ -123,7 +123,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/turtle.cpp
+#   src/${PROJECT_NAME}/turtle_pkg.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -198,7 +198,7 @@ target_link_libraries(sub_odom ${catkin_LIBRARIES})
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_turtle.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_turtle_pkg.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
