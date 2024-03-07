@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import rospy, sys
-from count_word.srv import *
+from count_words.srv import *
 
 
 def count_words(usr_input):

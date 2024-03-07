@@ -3,7 +3,7 @@
 
 using namespace ros;
 
-bool handle_sum_two_num(sum_pkg::sum::Request &req,
+bool handle_request(sum_pkg::sum::Request &req,
                         sum_pkg::sum::Response &res)
 {
     res.sum = req.num1 + req.num2;
@@ -19,7 +19,7 @@ int main(int argc, char **argv)
     NodeHandle nh;
 
     // service and response
-    ServiceServer server = nh.advertiseService("sum_two_num", handle_sum_two_num);
+    ServiceServer server = nh.advertiseService("sum_two_num", handle_request);
     ROS_INFO("Ready to sum two num.");
     spin();
 

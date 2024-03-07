@@ -18,7 +18,6 @@ int main(int argc, char **argv)
 
     // service and request
     ServiceClient client = nh.serviceClient<sum_pkg::sum>("sum_two_num");
-    // waiting service
     client.waitForExistence();
 
     // service
