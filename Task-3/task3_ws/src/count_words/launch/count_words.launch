@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 
 <launch>
-    <node name="count_words_client" pkg="count_words" type="input_words" output="screen" />
-    <node name="count_words_server" pkg="count_words" type="count_words" output="log" />
+    <node name="count_words_client" pkg="count_words" type="input_words" output="screen">
+        <remap from="count_words" to="count_words_remaped" />
+    </node>
+    <node name="count_words_server" pkg="count_words" type="count_words" output="log">
+        <remap from="count_words" to="count_words_remaped" />
+    </node>
 </launch>
