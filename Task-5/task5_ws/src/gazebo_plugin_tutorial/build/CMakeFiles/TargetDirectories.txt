@@ -1,0 +1,3 @@
+/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-5/task5_ws/src/gazebo_plugin_tutorial/build/CMakeFiles/rebuild_cache.dir
+/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-5/task5_ws/src/gazebo_plugin_tutorial/build/CMakeFiles/edit_cache.dir
+/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-5/task5_ws/src/gazebo_plugin_tutorial/build/CMakeFiles/hello_world.dir
