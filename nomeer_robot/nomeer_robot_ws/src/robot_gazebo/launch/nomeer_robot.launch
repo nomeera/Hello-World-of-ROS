@@ -8,7 +8,7 @@
     <arg name="gui" default="true" />
     <arg name="headless" default="false" />
     <arg name="debug" default="false" /> 
-    <arg name="world_file" default="$(find robot_gazebo)/worlds/hospital.world" />
+    <arg name="world_file" default="$(find robot_gazebo)/worlds/empty.world" />
 
 
     <include file="$(find gazebo_ros)/launch/empty_world.launch">

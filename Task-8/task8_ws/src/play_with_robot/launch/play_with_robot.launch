@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- convert velocities -->
+    <node name="convert_velocities" pkg="play_with_robot" type="convert_velocities.py"  output="screen"/>
+    <!-- publish twist -->
+    <node name="publish_twist" pkg="play_with_robot" type="publish_twist.py"  output="screen"/>
+
+
+</launch>
