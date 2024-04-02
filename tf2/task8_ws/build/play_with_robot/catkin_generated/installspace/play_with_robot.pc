@@ -1,8 +1,0 @@
-prefix=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-8/task8_ws/install
-
-Name: play_with_robot
-Description: Description of play_with_robot
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

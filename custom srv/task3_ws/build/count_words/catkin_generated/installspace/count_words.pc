@@ -1,8 +1,0 @@
-prefix=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-3/task3_ws/install
-
-Name: count_words
-Description: Description of count_words
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 
