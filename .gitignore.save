@@ -1,6 +1,0 @@
-Task-*/task*_ws/build/
-Task-*/task*_ws/devel/
-Task-*/task*_ws/.vscode/
-Task-*/task*_ws/.catkin_workspace
-nomeer_robot/nomeer_robot/nomeer_robot_ws
-.gitignore

@@ -1,0 +1,2 @@
+robot_description:robot_gazebo
+-DCATKIN_DEVEL_PREFIX=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/nomeer_robot/nomeer_robot_ws/devel -DCMAKE_INSTALL_PREFIX=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/nomeer_robot/nomeer_robot_ws/install -G Unix Makefiles
