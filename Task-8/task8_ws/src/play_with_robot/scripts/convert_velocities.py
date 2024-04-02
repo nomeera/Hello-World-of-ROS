@@ -9,12 +9,8 @@ class ConvertVelocities:
 
     def __init__(self):
         self.sub = rospy.Subscriber("/cmd_vel", Twist, self.callback)
-        self.right_wheel_pub = rospy.Publisher(
-            "/right_wheel_controller/command", Float64, queue_size=1
-        )
-        self.left_wheel_pub = rospy.Publisher(
-            "/left_wheel_controller/command", Float64, queue_size=1
-        )
+        self.right_wheel_pub = rospy.Publisher("/right_wheel_controller/command", Float64, queue_size=1)
+        self.left_wheel_pub = rospy.Publisher("/left_wheel_controller/command", Float64, queue_size=1)
         self.twist_velocities = Twist()
         self.vr = Float64()
         self.vl = Float64()
@@ -39,7 +35,7 @@ class ConvertVelocities:
 
 if __name__ == "__main__":
     rospy.init_node("convert_velocities_node",anonymous=True)
-    rospy.loginfo("Convert velocities node initialized")
+    rospy.loginfo("convert velocities node initialized")
     cv = ConvertVelocities()
     cv.pub_wheel_velocities()
  
