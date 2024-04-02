@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/noetic/include/",
+                "src/age_pkg/msg"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": []
+            }
+        }
+    ],
+    "version": 4
+}
