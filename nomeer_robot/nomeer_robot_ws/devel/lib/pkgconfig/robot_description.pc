@@ -1,8 +1,0 @@
-prefix=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/nomeer_robot/nomeer_robot_ws/devel
-
-Name: robot_description
-Description: Description of robot_description
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
