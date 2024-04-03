@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="link1_broadcaster" pkg="tf2_ros" type="static_transform_publisher" output="screen"
+        args="1 0 0 0 0 0 1 link1_parent link1">
+
+    </node>
+
+</launch>
