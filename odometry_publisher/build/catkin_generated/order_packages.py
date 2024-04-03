@@ -1,5 +1,0 @@
-# generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-9/task9_ws/src'
-whitelisted_packages = ''.split(';') if '' != '' else []
-blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-9/task9_ws/devel;/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/nomeer_robot/nomeer_robot_ws/devel;/opt/ros/noetic'.split(';') if '/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/Task-9/task9_ws/devel;/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/nomeer_robot/nomeer_robot_ws/devel;/opt/ros/noetic' != '' else []
