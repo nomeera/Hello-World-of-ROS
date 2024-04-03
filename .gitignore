@@ -6,4 +6,4 @@ nomeer_robot/nomeer_robot_ws/build/
 nomeer_robot/nomeer_robot_ws/devel/
 nomeer_robot/nomeer_robot_ws/.vscode/
 nomeer_robot/nomeer_robot_ws/.catkin_workspace
-
+.gitignore
