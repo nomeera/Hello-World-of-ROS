@@ -1,7 +1,7 @@
-/build/
-/devel/
-/.vscode/
-/.catkin_workspace
+*/build/
+*/devel/
+*/.vscode/
+*/.catkin_workspace
 nomeer_robot/nomeer_robot_ws/build/
 nomeer_robot/nomeer_robot_ws/devel/
 nomeer_robot/nomeer_robot_ws/.vscode/
