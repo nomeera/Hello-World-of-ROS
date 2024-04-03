@@ -1,0 +1,2 @@
+odometry_publisher
+-DCATKIN_DEVEL_PREFIX=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/odometry_publisher/devel -DCMAKE_INSTALL_PREFIX=/media/nomeer/NoMeEr/NoMeEr/Robotics-Software/Khaled_Gabr/Practice/Autonomous-Robotics-Course-2/odometry_publisher/install -G Unix Makefiles
