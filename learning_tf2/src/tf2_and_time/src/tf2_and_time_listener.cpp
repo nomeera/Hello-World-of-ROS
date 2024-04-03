@@ -36,8 +36,9 @@ int main(int argc, char **argv)
         geometry_msgs::TransformStamped transformStamped;
         try
         {
-            transformStamped = tfBuffer.lookupTransform("turtle2", "carrot1",
-                                                        ros::Time(0));
+            ros::Time now = ros::Time::now();
+            ros::Time past = ros::Time::now() - ros::Duration(5.0);
+            transformStamped = tfBuffer.lookupTransform("turtle2", now, "turtle1", past, "world", ros::Duration(1.0));
         }
         catch (tf2::TransformException &ex)
         {
